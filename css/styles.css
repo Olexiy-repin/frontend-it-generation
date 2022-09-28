@@ -1,0 +1,121 @@
+/* 
+універсальний селектор
+селектор елементу (тега)
+селектор id
+селектор класу
+селектор атрибуту
+селектор нащадка
+дочірній селектор
+*/
+
+/* універсальний селектор */
+/* * {
+  box-sizing: border-box;
+} */
+
+/* селектор елементу (тега) */
+/* h1 {
+  color: tomato;
+}
+
+p {
+  color: teal;
+}
+
+a {
+  color: yellowgreen;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+} */
+
+/* селектор id */
+/* #main-title {
+  color: tomato;
+}
+
+#description {
+  color: teal;
+}
+
+#secondary-description {
+  color: teal;
+} */
+
+/* селектор класу */
+/* .main-title {
+  color: tomato;
+}
+
+.description {
+  color: teal;
+} */
+
+/* селектор атрибуту */
+/* [href="https://www.google.com/"]
+{
+  color: yellowgreen;
+} */
+
+/* селектор нащадка */
+/* .menu-link {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menu .menu-link {
+  color: yellowgreen;
+}
+
+.secondary-menu .menu-link {
+  color: pink;
+} */
+
+/* дочірній селектор */
+/* .menu-item > .menu-link {
+  color: yellowgreen;
+} */
+
+/* 10 */
+/* .description {
+  color: tomato;
+} */
+
+/* 11 */
+/* body .description {
+  color: teal;
+} */
+
+/* 100 */
+/* #description {
+  color: pink;
+} */
+
+/* 100 */
+/* #secondary-description {
+  color: aqua;
+} */
+
+/* 1 */
+/* p {
+  color: yellowgreen;
+} */
+
+/* body {
+  font-size: 20px;
+  color: tomato;
+}
+
+.main-title {
+  font-size: inherit;
+}
+
+.menu-link {
+  color: inherit;
+} */
