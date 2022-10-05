@@ -8,6 +8,28 @@
   --accent-color: #ff6c00;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -17,12 +39,19 @@
 }
 
 button {
-  font-family: inherit;
   cursor: pointer;
 }
 
 body {
   font-family: var(--primary-font);
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* ================= COMPONENTS ================= */
@@ -117,6 +146,27 @@ body {
 /* ================= /COMPONENTS ================= */
 
 /* ================= HEADER ================= */
+.page-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 70px;
+}
+
+.menu {
+  display: flex;
+  column-gap: 40px;
+}
+
 .menu-link {
   font-weight: 600;
   font-size: 12px;
@@ -134,6 +184,8 @@ body {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
+  margin-left: auto;
+  margin-right: 40px;
 }
 
 .contact-phone-number:hover,
