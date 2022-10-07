@@ -47,7 +47,7 @@
     <main>
       <!-- HERO -->
       <section class="hero">
-        <div class="container">
+        <div class="container hero-container">
           <div class="hero-left-side">
             <ul class="media-list list">
               <li class="media-list-item">
@@ -61,7 +61,7 @@
           <div class="hero-right-side">
             <p class="suptitle suptitle-theme-dark" lang="en">A hair salon for men in Kyiv</p>
             <h1 class="main-title" lang="en">BarberShop</h1>
-            <p class="section-description section-description-theme-dark">
+            <p class="section-description section-description-theme-dark hero-section-description">
               Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно та зі смаком.
             </p>
           </div>
@@ -179,87 +179,99 @@
         </div>
       </section>
       <!-- EMPLOYEES -->
-      <section class="employees-section" id="employees">
-        <p class="suptitle suptitle-theme-light">для справжніх шанувальників атмосфери</p>
-        <h2 class="title title-theme-light">Наші майстри</h2>
-        <ul class="employees list">
-          <li class="employees-card">
-            <img
-              class="employees-photo"
-              src="./images/employees/john-smith.jpg"
-              alt="майстер стриже клієнта"
-              width="370"
-              height="346"
-            />
-            <h3 class="employees-name" lang="en">John Smith</h3>
-            <p class="employees-position" lang="en">Extreme Barber</p>
-          </li>
-          <li class="employees-card">
-            <img
-              class="employees-photo"
-              src="./images/employees/michele-doe.jpg"
-              alt="майстер стриже клієнта"
-              width="370"
-              height="346"
-            />
-            <h3 class="employees-name" lang="en">Michele Doe</h3>
-            <p class="employees-position" lang="en">Extreme Barber</p>
-          </li>
-          <li class="employees-card">
-            <img
-              class="employees-photo"
-              src="./images/employees/alan-black.jpg"
-              alt="майстер стриже клієнта"
-              width="370"
-              height="346"
-            />
-            <h3 class="employees-name" lang="en">Alan Black</h3>
-            <p class="employees-position" lang="en">Extreme Barber</p>
-          </li>
-        </ul>
+      <section class="employees-section section" id="employees">
+        <div class="container">
+          <p class="suptitle suptitle-theme-light">для справжніх шанувальників атмосфери</p>
+          <h2 class="title title-theme-light employees-section-title">Наші майстри</h2>
+          <ul class="employees list">
+            <li class="employees-card">
+              <img
+                class="employees-photo"
+                src="./images/employees/john-smith.jpg"
+                alt="майстер стриже клієнта"
+                width="370"
+                height="346"
+              />
+              <div class="employees-content-wrapper">
+                <h3 class="employees-name" lang="en">John Smith</h3>
+                <p class="employees-position" lang="en">Extreme Barber</p>
+              </div>
+            </li>
+            <li class="employees-card">
+              <img
+                class="employees-photo"
+                src="./images/employees/michele-doe.jpg"
+                alt="майстер стриже клієнта"
+                width="370"
+                height="346"
+              />
+              <div class="employees-content-wrapper">
+                <h3 class="employees-name" lang="en">Michele Doe</h3>
+                <p class="employees-position" lang="en">Extreme Barber</p>
+              </div>
+            </li>
+            <li class="employees-card">
+              <img
+                class="employees-photo"
+                src="./images/employees/alan-black.jpg"
+                alt="майстер стриже клієнта"
+                width="370"
+                height="346"
+              />
+              <div class="employees-content-wrapper">
+                <h3 class="employees-name" lang="en">Alan Black</h3>
+                <p class="employees-position" lang="en">Extreme Barber</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- PORTFOLIO -->
-      <section class="gallery">
-        <p class="suptitle suptitle-theme-light">Латинською мовою "барба" означає "борода"</p>
-        <h2 hidden>Портфоліо</h2>
-        <ul class="gallery-list list">
-          <li class="gallery-list-item">
-            <img
-              class="gallery-list-img"
-              src="./images/portfolio/portfolio-img-1.jpg"
-              alt="майстер стриже клієнта"
-              width="270"
-              height="360"
-            />
-          </li>
-          <li class="gallery-list-item">
-            <img
-              class="gallery-list-img"
-              src="./images/portfolio/portfolio-img-2.jpg"
-              alt="майстер голить бороду клієнту"
-              width="270"
-              height="360"
-            />
-          </li>
-          <li class="gallery-list-item">
-            <img
-              class="gallery-list-img"
-              src="./images/portfolio/portfolio-img-3.jpg"
-              alt="майстер голить бороду клієнту"
-              width="270"
-              height="360"
-            />
-          </li>
-          <li class="gallery-list-item">
-            <img
-              class="gallery-list-img"
-              src="./images/portfolio/portfolio-img-4.jpg"
-              alt="майстер стриже клієнта"
-              width="270"
-              height="360"
-            />
-          </li>
-        </ul>
+      <section class="gallery section">
+        <div class="container">
+          <p class="suptitle suptitle-theme-light gallery-suptitle">
+            Латинською мовою "барба" означає "борода"
+          </p>
+          <h2 class="visually-hidden">Портфоліо</h2>
+          <ul class="gallery-list list">
+            <li class="gallery-list-item">
+              <img
+                class="gallery-list-img"
+                src="./images/portfolio/portfolio-img-1.jpg"
+                alt="майстер стриже клієнта"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-list-item">
+              <img
+                class="gallery-list-img"
+                src="./images/portfolio/portfolio-img-2.jpg"
+                alt="майстер голить бороду клієнту"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-list-item">
+              <img
+                class="gallery-list-img"
+                src="./images/portfolio/portfolio-img-3.jpg"
+                alt="майстер голить бороду клієнту"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-list-item">
+              <img
+                class="gallery-list-img"
+                src="./images/portfolio/portfolio-img-4.jpg"
+                alt="майстер стриже клієнта"
+                width="270"
+                height="360"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <div id="contacts">
         <!-- CONTACT FORM -->
