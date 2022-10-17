@@ -75,10 +75,9 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 99, 71, 0.5);
-  color: #ffffff;
-  padding: 10px;
-  line-height: 1.2;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  background-color: rgba(255, 99, 71, 0.7);
   overflow: auto;
   transform: translateY(100%);
   transition: transform 250ms linear;
