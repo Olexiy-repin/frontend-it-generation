@@ -1,0 +1,31 @@
+.hero-container {
+  display: flex;
+}
+
+.hero-left-side {
+  width: 100px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 40px;
+  padding-left: 26px;
+}
+
+.hero-media-list {
+  transform: rotate(-90deg) translateX(-18px);
+  transform-origin: left top;
+}
+
+.hero-right-side {
+  flex-grow: 1;
+  padding-left: 100px;
+  padding-bottom: 206px;
+  padding-top: 272px;
+  background-color: #303030;
+  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+    url('../images/hero/bg.jpg');
+  background-size: cover;
+}
+
+.hero-section-description {
+  width: 400px;
+}
