@@ -23,27 +23,31 @@
       <div class="container page-header-container">
         <nav class="page-navigation">
           <a class="logo" href="./index.html">
-            <svg class="logo-img" width="68" height="56" aria-label="логотип">
+            <svg class="logo__img" width="68" height="56" aria-label="логотип">
               <use href="./images/sprite.svg#icon-logo"></use>
             </svg>
           </a>
           <ul class="menu list">
-            <li class="menu-item">
-              <a class="menu-link link" href="#about">Про нас</a>
+            <li class="menu__item">
+              <a class="menu__link menu__link_current link" href="#about">Про нас</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="#services">Послуги та ціни</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="#services">Послуги та ціни</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="#employees">Майстри</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="#employees">Майстри</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="#contacts">Контакти</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="#contacts">Контакти</a>
             </li>
           </ul>
         </nav>
-        <a class="contact-phone-number link" href="tel:+380441111111">+38 044 111 11 11</a>
-        <button class="modal-btn modal-btn-theme-dark" type="button" data-modal-open>
+        <a
+          class="contact-phone-number page-header__contact-phone-number link"
+          href="tel:+380441111111"
+          >+38 044 111 11 11</a
+        >
+        <button class="modal-btn modal-btn_theme_dark" type="button" data-modal-open>
           онлайн-запис
         </button>
       </div>
@@ -110,7 +114,7 @@
               з клієнтами "на одній хвилі". Тому ми завжди готові вдосконалити кожного, хто до нас
               приходить!
             </p>
-            <button class="modal-btn modal-btn-theme-light" type="button">онлайн-запись</button>
+            <button class="modal-btn modal-btn_theme_light" type="button">онлайн-запись</button>
           </div>
         </div>
       </section>
@@ -157,7 +161,7 @@
               </tr>
             </table>
           </div>
-          <button class="modal-btn modal-btn-theme-dark services-modal-btn" type="button">
+          <button class="modal-btn modal-btn_theme_dark services-modal-btn" type="button">
             онлайн-запись
           </button>
         </div>

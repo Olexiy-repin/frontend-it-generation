@@ -1,9 +1,7 @@
 .modal-btn {
+  @include font(12px, 600, 16px);
   min-width: 160px;
   padding: 12px 20px;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
   border: 1px solid #ff6c00;
@@ -18,10 +16,10 @@
   }
 }
 
-.modal-btn-theme-light {
+.modal-btn_theme_light {
   color: var(--primary-text-color-theme-light);
 }
 
-.modal-btn-theme-dark {
+.modal-btn_theme_dark {
   color: var(--primary-text-color-theme-dark);
 }

@@ -7,27 +7,27 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
 
-.suptitle::before {
-  content: '';
-  width: 60px;
-  height: 1px;
-  margin-right: 20px;
+  &::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+  }
 }
 
 .suptitle-theme-dark {
   color: var(--secondary-text-color-theme-dark);
-}
 
-.suptitle-theme-dark::before {
-  background-color: var(--secondary-text-color-theme-dark);
+  &::before {
+    background-color: var(--secondary-text-color-theme-dark);
+  }
 }
 
 .suptitle-theme-light {
   color: var(--primary-text-color-theme-light);
-}
 
-.suptitle-theme-light::before {
-  background-color: var(--primary-text-color-theme-light);
+  &::before {
+    background-color: var(--primary-text-color-theme-light);
+  }
 }
