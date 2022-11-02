@@ -42,19 +42,51 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-btn" data-menu-open>
+          <svg class="mobile-menu-btn__icon" width="40" height="40">
+            <use href="./images/sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
         <a
           class="contact-phone-number page-header__contact-phone-number link"
           href="tel:+380441111111"
           >+38 044 111 11 11</a
         >
-        <button class="modal-btn modal-btn_theme_dark" type="button" data-modal-open>
+        <button
+          class="modal-btn modal-btn_theme_dark page-header__modal-btn"
+          type="button"
+          data-modal-open
+        >
           онлайн-запис
         </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="40" height="40">
+              <use href="./images/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul>
+            <li>
+              <a href="">link-1</a>
+            </li>
+            <li>
+              <a href="">link-2</a>
+            </li>
+            <li>
+              <a href="">link-3</a>
+            </li>
+            <li>
+              <a href="">link-4</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
       <!-- HERO -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container hero-container">
           <div class="hero-left-side">
             <ul class="media-list hero-media-list list">
@@ -74,9 +106,9 @@
             </p>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- ABOUT -->
-      <section class="about section" id="about">
+      <!-- <section class="about section" id="about">
         <div class="container about-container">
           <div class="about-left-side">
             <ul class="about-gallery list">
@@ -117,9 +149,9 @@
             <button class="modal-btn modal-btn_theme_light" type="button">онлайн-запись</button>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- SERVICES -->
-      <section class="services section" id="services">
+      <!-- <section class="services section" id="services">
         <div class="container">
           <p class="suptitle suptitle-theme-dark">Проведи час у компанії кращих майстрів</p>
           <h2 class="title title-theme-dark">Послуги та ціни</h2>
@@ -165,9 +197,9 @@
             онлайн-запись
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- ADVANTAGES -->
-      <section class="advantages section">
+      <!-- <section class="advantages section">
         <div class="container advantages-container">
           <div class="advantages-left-side">
             <ul class="advantages-list list">
@@ -200,9 +232,9 @@
             </p>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- EMPLOYEES -->
-      <section class="employees-section section" id="employees">
+      <!-- <section class="employees-section section" id="employees">
         <div class="container">
           <p class="suptitle suptitle-theme-light">для справжніх шанувальників атмосфери</p>
           <h2 class="title title-theme-light employees-section-title">Наші майстри</h2>
@@ -410,9 +442,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- PORTFOLIO -->
-      <section class="gallery section">
+      <!-- <section class="gallery section">
         <div class="container">
           <p class="suptitle suptitle-theme-light gallery-suptitle">
             Латинською мовою "барба" означає "борода"
@@ -457,14 +489,14 @@
             </li>
           </ul>
         </div>
-      </section>
-      <div id="contacts">
-        <!-- CONTACT FORM -->
-        <section class="contact-form-section section">
+      </section> -->
+      <!-- <div id="contacts"> -->
+      <!-- CONTACT FORM -->
+      <!-- <section class="contact-form-section section">
           <h2 class="title">Онлайн-запис</h2>
-        </section>
-        <!-- CONTACT INFORMATION -->
-        <section class="contact-info-section section">
+        </section> -->
+      <!-- CONTACT INFORMATION -->
+      <!-- <section class="contact-info-section section">
           <h2 class="title">Контакти</h2>
           <address>
             <ul class="contact-list list">
@@ -489,11 +521,11 @@
           </address>
           <h3 class="suptitle">час роботи</h3>
           <p class="contact-info-date">Щоденно з 9:00 до 22:00</p>
-        </section>
-      </div>
+        </section> -->
+      <!-- </div> -->
     </main>
     <!-- FOOTER -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <p class="copyright">&#xa9; Copyright 2020</p>
         <ul class="media-list list">
@@ -505,10 +537,10 @@
           </li>
         </ul>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- BACKDROP -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="18" height="18">
@@ -568,8 +600,9 @@
           <button type="submit" class="modal-form-submit">Надіслати</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
-    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
